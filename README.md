@@ -4,7 +4,7 @@
 
 A field for Joomla extensions that allows you to add additional css styles and js scripts to the administrative part of the extension. Designed primarily for modules and plugins.
 
-** Usage**:<br>
+**Usage**:<br>
 Add the field files to the /files<br>folder
 In the xml-description of your extension, add the field: '<field name= "fieldname" type= "adminextensionscripts" script= " 1 "styles=" 1 "label=" addfieldpath= "extension_path/fields" /> " <br>
 Set the `script` parameter to the value **1** to connect scripts or to a value **0** not to connect them.<br>
